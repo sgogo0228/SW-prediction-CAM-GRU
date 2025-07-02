@@ -1,5 +1,6 @@
-# SW-prediction-CAM-GRU
-This project implements a shear wave image prediction pipeline using a GRU-based model named **CAM-GRU** (Correlation and Attention Modulated GRU), proposed in my dissertation. The model integrates in-phase/out-of-phase IQ signal processing, cross-correlation enhancement, and positional attention embedding.
+# 超音波剪切波訊號之智慧預測 | Smart Prediction of Ultrasound Shear Wave
+本專案開發一套剪切波影像預測流程，採用名為 CAM-GRU（Correlation and Attention Modulated GRU）的 GRU 架構模型。該模型整合IQ訊號處理、互相關增強、注意力機制與positional embedding。相較傳統方法，達到 0.8 的相關係數，並使預測時間降低77%。  
+A shear wave image prediction pipeline was developed using a GRU-based model named CAM-GRU. The model incorporates IQ signal processing, cross-correlation enhancement, attention mechanism, and positional embedding. Compared with the conventional method, it achieved a correlation coefficient of 0.8 and reduced prediction time by 77%.
 ---
 
 ## 🔧 Features
